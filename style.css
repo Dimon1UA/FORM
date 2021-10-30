@@ -1,0 +1,83 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Nunito&display=swap');
+body{
+    background-color: rgb(21, 255, 0);
+}
+form{
+    background: linear-gradient(rgba(215,255,0,1) 0%, rgba(0,224,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    margin-top: 50px;
+    border: 2px inset black;
+}
+textarea{
+    width: 200px;
+    height: 80px;
+    border: none;
+    font-size: 15px;
+}
+textarea:focus{
+    border: 5px solid red
+}
+.name{
+    border: none;
+    height: 30px;
+}
+.name::placeholder{
+    text-align: center;
+    font-size: 15px;
+}
+.ancher1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(16, 40, 177);
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.ancher2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(56, 177, 16);
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.radio{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.dann{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+}
+.pred{
+    margin-top: 20px;
+    width: 300px;
+    border: 2px solid black;
+}
+h4{
+    text-align: center;
+}
+h1{
+    font-family: 'Irish Grover', cursive;
+}
+.classa{
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
